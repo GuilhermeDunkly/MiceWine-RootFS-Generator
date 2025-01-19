@@ -1,6 +1,7 @@
-PKG_VER=00.0.0.1
+PKG_VER=[gss]
+PKG_CATEGORY="OpenGLDriver"
+PKG_PRETTY_NAME="Mesa Panfork Driver"
 
-BLACKLIST_ARCHITECTURE=aarch64
 
 GIT_URL=https://github.com/anonymususer04/mesa-Panfork-android
 GIT_COMMIT=bbd34b254a2f4d6d30c32ac04ce1b68fcbd27d93
