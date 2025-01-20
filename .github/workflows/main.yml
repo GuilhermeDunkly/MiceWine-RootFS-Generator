@@ -30,7 +30,7 @@ jobs:
            echo PKG_CATEGORY=OpenGLDriver >> packages/mesa-panfork/build.sh
            echo PKG_PRETTY_NAME="Mesa Panfork Driver" >> packages/mesa-panfork/build.sh
            echo BLACKLIST_ARCHITECTURE=x86_64 >> packages/mesa-panfork/build.sh
-           echo GIT_URL=https://github.com/KreitinnSoftware/mesa-Panfork >> packages/mesa-panfork/build.sh
+           echo GIT_URL=https://github.com/anonymususer04/mesa-Panfork-android >> packages/mesa-panfork/build.sh
            echo LDFLAGS="-L$PREFIX/lib -landroid-shmem -Wl,--undefined-version" >> packages/mesa-panfork/build.sh
            echo MESON_ARGS="-Dgallium-drivers=swrast,panfrost -Dvulkan-drivers= -Dglvnd=disabled -Dplatforms=x11 -Dxmlconfig=disabled -Dllvm=disabled -Dopengl=true -Degl=disabled -Dzstd=enabled" >> packages/mesa-panfork/build.sh
 
