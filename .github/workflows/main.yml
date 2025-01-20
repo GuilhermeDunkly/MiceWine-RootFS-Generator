@@ -39,7 +39,7 @@ jobs:
       - name: "Compile Mesa Panfork"
         run: |
            cd MiceWine-RootFS-Generator
-           ./build-all.sh aarch64
+           ./build-all.sh x86_64
            cd logs
            7z a /home/runner/Mesa-Panfork-Logs.zip
 
