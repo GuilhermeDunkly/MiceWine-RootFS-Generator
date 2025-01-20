@@ -3,7 +3,7 @@ on:
    workflow_dispatch:
 jobs:
   job-ubuntu:
-    runs-on: ubuntu-22-04
+    runs-on: ubuntu-latest
     steps:
       - name: "Environment Preparation"
         run: |
